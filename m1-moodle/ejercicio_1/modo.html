@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modo.css">
+</head>
+
+<body>
+
+    <select name="" id="theme">
+        <option value="">selecionar tema</option>
+        <option value="dark">Dark</option>
+        <option value="light">Light</option>
+    </select>
+
+    <script>
+        const theme = document.getElementById('theme');
+        theme.addEventListener('change', function () {
+            document.body.className = theme.value;
+        });
+    </script>
+</body>
+</html>
