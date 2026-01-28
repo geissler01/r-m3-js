@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

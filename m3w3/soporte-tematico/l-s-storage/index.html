@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h2>Storage con JSON</h2>
+    <input type="text" id="name" placeholder="Nombre">
+    <input type="number" id="age" placeholder="Edad">
+
+    <button id="saveLocal">Guardar en localStorage</button>
+    <button id="saveSession">Guardar en SessionStorage</button>
+    <button id="read">Leer datos</button>
+    <button id="remove">Borrar datos</button>
+    <pre id="result"></pre>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
